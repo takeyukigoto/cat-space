@@ -57,12 +57,17 @@
   width: 300px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .group {
   padding: 20px 20px 40px 20px;
   &__name {
     font-size: 15px;
     color: white;
     padding-bottom: 5px;
+    
   }
   &__message {
     font-size: 11px;
