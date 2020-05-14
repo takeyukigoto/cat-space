@@ -5,7 +5,7 @@
 }
 
 .header {
-  background-color: #ffffff;
+  background-color: #fafafa;
   height: 100px;
   width: 100%;
   display: flex;
@@ -54,7 +54,7 @@
 
 
 .messages {
-  background-color: #fafafa;
+  background-color: #A4C6FF;
   height: calc(100vh - 100px - 90px);
   width: 100%;
   overflow: scroll;
@@ -136,7 +136,7 @@
   height: 50px;
   padding: 0 30px;
   margin-left: 15px;
-  background-color: #38aef0;
-  color: white;
+  background-color: gold;
+  color: blue;
   cursor: pointer;
 }

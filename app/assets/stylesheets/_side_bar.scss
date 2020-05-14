@@ -1,5 +1,5 @@
 .chat-side {
-  background-color: #253141;
+  background-color: red;
   height: 100vh;
   width: 300px;
 }
@@ -9,13 +9,12 @@
 
 
 .side-header {
-  background-color: #253141;
+  background-color: red;
   height: 100px;
   width: 300px;
   display: flex;
   align-items: center;
   &__box {
-  // background-color: #d8d8d8;
   height: 20px;
   width: 260px;
   margin: 0 20px;
@@ -31,18 +30,16 @@
   &__menu {
     width: 60px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     line-height: 20px;
     a {
       color: white;
     }
-    &__edit-user {
-    margin-left: 5px;
     
   }
 }
 }
-}
+
 
 
 
@@ -52,7 +49,7 @@
 
 
 .groups {
-  background-color: #2f3e51;
+  background-color: green;
   height: calc(100vh - 100px);
   width: 300px;
 }
